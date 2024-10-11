@@ -1,0 +1,9 @@
+Note:
+    Player State:
+        1: alive
+        2: dead
+    Game State:
+        0: not open
+        1: opening
+        2: playing
+        3: ended

@@ -1,0 +1,273 @@
+{
+    "roleCount": 33,
+    "roles": [
+        {
+            "id": 1,
+            "name": "Bảo Vệ",
+            "aura": "Thiện",
+            "team": "Dân",
+            "description": "Bạn có thể chọn một người chơi để bảo vệ mỗi đêm. Người được bảo vệ không thể bị giết vào đêm đó, thay vào đó bạn sẽ bị tấn công thay họ. Vì bạn rất khỏe nên sẽ không thể bị chết trong lần tấn công đầu tiên nhưng sẽ chết trong lần tấn công thứ hai. Mỗi đêm bạn sẽ tự bảo vệ chính mình.",
+            "score": 3
+        },
+        {
+            "id": 2,
+            "name": "Thầy Bói",
+            "aura": "Thiện",
+            "team": "Dân",
+            "description": "Mỗi đêm bạn có thể bói 1 người chơi để biết họ Thiện, Ác hay Không rõ. Phe Ác là phe ma sói, phe Thiện là phe dân làng.",
+            "score": 4
+        },
+        {
+            "id": 3,
+            "name": "Dân Làng",
+            "aura": "Thiện",
+            "team": "Dân",
+            "description": "Bạn là một dân làng bình thường và không có khả năng gì đặc biệt.",
+            "score": 1
+        },
+        {
+            "id": 4,
+            "name": "Sói Thường",
+            "aura": "Ác",
+            "team": "Sói",
+            "description": "Mỗi đêm bạn có thể bỏ phiếu cùng đàn sói để chọn giết một người chơi.",
+            "score": -1
+        },
+        {
+            "id": 5,
+            "name": "Mục Sư",
+            "aura": "Thiện",
+            "team": "Dân",
+            "description": "Bạn có thể vẩy nước thánh lên người chơi khác. Nếu đó là ma sói thì người đó chết, nếu không phải ma sói, bạn chết.",
+            "score": 2
+        },
+        {
+            "id": 6,
+            "name": "Sói Phù Thủy",
+            "aura": "Ác",
+            "team": "Sói",
+            "description": "Bạn là một phần của phe Ma Sói, nhưng bạn không thể trò chuyện với họ. Mỗi đêm, bạn có thể kiểm tra vai trò của một người chơi. Khi bắt đầu trò chơi, bạn sẽ cải trang thành một vai trò thông tin. Vai trò này được chọn ngẫu nhiên từ tất cả vai trò thông tin hiện có ở trong ván chơi đó. Nếu một người chơi khác kiểm tra vai trò của bạn, họ sẽ thấy vai trò bạn đang cải trang thay vì Sói Phù Thuỷ. Bạn sẽ bị biến đổi thành Sói Thường khi tất cả các ma sói bị giết. Hai lần trong trò chơi, bạn có thể đánh dấu một người chơi đã được kiểm tra và tiết lộ vai trò của họ cho đàn sói.",
+            "score": -3
+        },
+        {
+            "id": 7,
+            "name": "Thợ Săn",
+            "aura": "Không Rõ",
+            "team": "Dân",
+            "specialTeam": "Solo",
+            "description": "Khi bắt đầu trò chơi, bạn sẽ được chỉ định một mục tiêu. Mục đích của bạn là làm cho mục tiêu đó bị treo cổ bởi dân làng vào ban ngày. Mục tiêu của bạn phải được treo cổ trước khi bạn chết để giành chiến thắng. Nếu mục tiêu của bạn chết theo cách khác, bạn sẽ giành chiến thắng cùng phe dân làng nhưng vẫn là thợ săn người.",
+            "score": 2
+        },
+        {
+            "id": 8,
+            "name": "Thằng Ngố",
+            "aura": "Không Rõ",
+            "team": "Solo",
+            "description": "Bạn phải lừa dân làng treo cổ bạn. Nếu họ treo cổ bạn, bạn thắng.",
+            "score": 0
+        },
+        {
+            "id": 9,
+            "name": "Phù Thủy",
+            "aura": "Không Rõ",
+            "team": "Dân",
+            "description": "Bạn có hai bình thuốc: Một bình dùng để giết và bình kia để bảo vệ người chơi. Bình bảo vệ chỉ được tiêu thụ nếu người chơi đó bị tấn công. Bạn không thể giết trong đêm đầu tiên.",
+            "score": 6
+        },
+        {
+            "id": 10,
+            "name": "Xạ Thủ",
+            "aura": "Không Rõ",
+            "team": "Dân",
+            "description": "Bạn có hai viên đạn mà bạn có thể sử dụng để bắn ai đó. Bạn chỉ bắn được một viên đạn mỗi ngày. Vì âm thanh tiếng súng khi bắn rất lớn nên vai trò của bạn sẽ được tiết lộ sau lần bắn đầu tiên. Bạn không thể bắn trong giai đoạn thảo luận vào ngày đầu tiên.",
+            "score": 5
+        },
+        {
+            "id": 11,
+            "name": "Sói Đầu Đàn",
+            "aura": "Không Rõ",
+            "team": "Sói",
+            "description": "Phiếu bầu ban đêm của bạn được nhân đôi. Vào ban ngày, bạn có thể gửi các tin nhắn riêng tư đến các con sói khác trong đàn.",
+            "score": -4
+        },
+        {
+            "id": 12,
+            "name": "Tiên Tri",
+            "aura": "Thiện",
+            "team": "Dân",
+            "description": "Mỗi đêm bạn có thể xem vai trò của người chơi khác.",
+            "score": 8
+        },
+        {
+            "id": 13,
+            "name": "Sát Nhân",
+            "aura": "Không Rõ",
+            "team": "Solo",
+            "description": "Mỗi đêm bạn có thể giết một người chơi.",
+            "score": -2
+        },
+        {
+            "id": 14,
+            "name": "Gái Điếm",
+            "aura": "Không Rõ",
+            "team": "Dân",
+            "description": "Vào ban đêm bạn có thể ghé thăm người chơi khác. Nếu bạn bị tấn công vào lúc đó, bạn sẽ không chết. Tuy nhiên, nếu bạn ghé thăm một người chơi bị tấn công hoặc ghé thăm ma sói hay kẻ giết người solo, bạn chắc chắn sẽ chết!",
+            "score": 4
+        },
+        {
+            "id": 15,
+            "name": "Thầy Đồng",
+            "aura": "Không Rõ",
+            "team": "Dân",
+            "description": "Vào buổi đêm bạn có thể trò chuyện ẩn danh với người chết. Bạn có khả năng chọn một dân làng đã chết trong đêm và hồi sinh họ vào ban ngày một lần trong ván đấu.",
+            "score": 8
+        },
+        {
+            "id": 16,
+            "name": "Sói Tiên Tri",
+            "aura": "Ác",
+            "team": "Sói",
+            "description": "Mỗi đêm, bạn có thể chọn một người chơi để xem vai trò của hắn ta. Nếu bạn là ma sói cuối cùng hoặc bạn từ bỏ khả năng của mình, bạn sẽ trở thành ma sói thường.",
+            "score": -7
+        },
+        {
+            "id": 17,
+            "name": "Cậu Bé Miệng Bự",
+            "aura": "Thiện",
+            "team": "Dân",
+            "description": "Bạn có thể chọn một người chơi để tiết lộ vai trò của họ khi bạn chết.",
+            "score": 1
+        },
+        {
+            "id": 18,
+            "name": "Giáo Chủ",
+            "aura": "Không Rõ",
+            "team": "Solo",
+            "specialTeam": "Giáo Phái",
+            "description": "Mỗi đêm bạn có thể biến đổi một người chơi để gia nhập vào giáo phái của mình. Người chơi bị biến đổi vẫn giữ vai trò ban đầu của họ. Thay vì biến đổi, bạn có thể hiến tế một giáo đồ để giết một người chơi khác. Toàn bộ giáo đồ sẽ chết nếu như Giáo Chủ bị giết. Bạn không thể biến đổi ma sói và kẻ giết người solo.",
+            "score": -6
+        },
+        {
+            "id": 19,
+            "name": "Thám Tử",
+            "aura": "Thiện",
+            "team": "Dân",
+            "description": "Mỗi đêm, bạn có thể chọn hai người chơi để điều tra và biết được họ ở cùng một phe hay là khác phe. Các phe có thể là: Dân Làng, Ma Sói, Thằng Ngố, Thợ Săn Người, Sát Nhân Hàng Loạt,...",
+            "score": 6
+        },
+        {
+            "id": 20,
+            "name": "Sói Hắc Ám",
+            "aura": "Không Rõ",
+            "team": "Sói",
+            "description": "Mỗi một lần trong trò chơi, bạn có thể nhân đôi số phiếu của đội mình trong ngày, trong khi tất cả các phiếu bầu sẽ được ẩn đi.",
+            "score": -5
+        },
+        {
+            "id": 21,
+            "name": "Sói Trẻ",
+            "aura": "Ác",
+            "team": "Sói",
+            "description": "Bạn là sói trẻ. Bởi vì bạn rất dễ thương, bạn có thể chọn người chơi khác để chết theo bạn khi bạn bị giết.",
+            "score": -6
+        },
+        {
+            "id": 22,
+            "name": "Người Yêu Hoà Bình",
+            "aura": "Thiện",
+            "team": "Dân",
+            "description": "Một lần trong mỗi trận đấu, bạn có thể tiết lộ vai trò của người chơi và ngăn chặn cuộc bỏ phiếu trong ngày đó. Chỉ bạn mới có thể nhìn thấy vai trò của người chơi đã được tiết lộ.",
+            "score": 2
+        },
+        {
+            "id": 23,
+            "name": "Nhà Chế Tạo",
+            "aura": "Không Rõ",
+            "team": "Dân",
+            "description": "Bạn có thể rèn hai chiếc khiên và một thanh kiếm. Quá trình rèn mất một ngày và mỗi vật phẩm phải được trao cho người chơi khác trước khi rèn vật phẩm tiếp theo. Khiên sẽ cứu một người chơi khỏi bị tấn công vào ban đêm. Thanh kiếm có thể được sử dụng để giết người chơi khác.",
+            "score": 3
+        },
+        {
+            "id": 24,
+            "name": "Bác Sĩ",
+            "aura": "Thiện",
+            "team": "Dân",
+            "description": "Chọn một người chơi để che chở vào mỗi đêm. Người chơi đó sẽ không bị giết vào đêm đó.",
+            "score": 2
+        },
+        {
+            "id": 25,
+            "name": "Thần Tình Yêu",
+            "aura": "Thiện",
+            "team": "Dân",
+            "specialTeam": "Cặp Đôi",
+            "description": "Trong đêm đầu tiên bạn có thể chọn hai người chơi để họ làm tình nhân của nhau. Bạn thắng nếu phe dân làng thắng hoặc cặp tình nhân là những người cuối cùng sống sót.",
+            "score": -1
+        },
+        {
+            "id": 26,
+            "name": "Kẻ Bị Nguyền Rủa",
+            "aura": "Thiện",
+            "team": "Dân",
+            "specialTeam": "Sói",
+            "description": "Bạn là dân làng bình thường cho tới khi bị ma sói cắn, lúc đó bạn sẽ trở thành Ma sói. Bạn không thể bị biến đổi qua phe khác bởi Giáo chủ ..v.v..",
+            "score": 1
+        },
+        {
+            "id": 27,
+            "name": "Thị Trưởng",
+            "aura": "Thiện",
+            "team": "Dân",
+            "description": "Một lần trong trò chơi, bạn có thể tiết lộ vai trò của mình, điều này sẽ khiến số phiếu bầu của bạn tăng gấp đôi trong suốt phần còn lại của trò chơi.",
+            "score": 3
+        },
+        {
+            "id": 28,
+            "name": "Lực Sĩ",
+            "aura": "Thiện",
+            "team": "Dân",
+            "description": "Bạn có thể chọn một người chơi để bảo vệ mỗi đêm. Nếu bạn hoặc người chơi đó bị tấn công, cả 2 sẽ không chết và thay vào đó, bạn và kẻ tấn công sẽ nhìn thấy vai trò của nhau. Bởi vì vết thương của bạn khá nặng, bạn sẽ chết vào cuối ngày tiếp theo.",
+            "score": -3
+        },
+        {
+            "id": 29,
+            "name": "Kẻ Báo Thù",
+            "aura": "Thiện",
+            "team": "Dân",
+            "description": "Bạn có thể chọn một người chơi để chết cùng khi bạn chết.",
+            "score": 0
+        },
+        {
+            "id": 30,
+            "name": "Sói Bùa",
+            "aura": "Không Rõ",
+            "team": "Sói",
+            "description": "Vào ban ngày bạn có thể yểm phép một người chơi. Với các vai trò như tiên tri, thầy bói, v.v người chơi này sẽ được xem như là Sói Bùa vào đêm kế tiếp.",
+            "score": -4
+        },
+        {
+            "id": 31,
+            "name": "Quản Ngục",
+            "aura": "Không Rõ",
+            "team": "Dân",
+            "description": "Vào ban ngày, bạn có thể chọn một người chơi để giam vô ngục vào đêm hôm sau! Bạn có thể nói chuyện ẩn danh với người chơi bị giam vào ban đêm. Người đó không thể sử dụng khả năng của họ và sẽ không bị tấn công. Bạn có một viên đạn để giết người chơi bị giam vào ngục trong đêm.",
+            "score": 7
+        },
+        {
+            "id": 32,
+            "name": "Kẻ Phóng Hỏa",
+            "aura": "Không Rõ",
+            "team": "Solo",
+            "description": "Vào ban đêm, bạn có thể chọn hai người chơi để tẩm xăng hoặc thiêu chết tất cả những người chơi bị tẩm trước đó. Việc tẩm xăng sẽ xuyên qua lớp bảo vệ.",
+            "score": -3
+        },
+        {
+            "id": 33,
+            "name": "Kẻ Ăn Thịt Người",
+            "aura": "Không Rõ",
+            "team": "Solo",
+            "description": "Mỗi đêm, bạn có thể giết một người chơi bằng cách nuốt chửng hắn ta hoặc nhịn cơn đói của mình để ăn tối đa 5 người chơi trong một đêm.",
+            "score": -3
+        }
+    ]
+}

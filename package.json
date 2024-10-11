@@ -1,0 +1,27 @@
+{
+  "name": "macun-guardian-v14",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js --ignore masoi.json --ignore giveaway.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@discordjs/builders": "^1.8.2",
+    "@discordjs/rest": "^2.3.0",
+    "@discordjs/voice": "^0.17.0",
+    "@napi-rs/canvas": "^0.1.55",
+    "axios": "^1.7.7",
+    "discord-giveaways": "^6.0.1",
+    "discord.js": "^14.16.1",
+    "dotenv": "^16.4.5",
+    "eslint": "^9.9.1",
+    "libsodium-wrappers": "^0.7.15",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.4"
+  }
+}

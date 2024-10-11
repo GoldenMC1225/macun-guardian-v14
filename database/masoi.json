@@ -1,0 +1,53 @@
+{
+  "gameCount": 1,
+  "game": {
+    "1": {
+      "playerCount": 5,
+      "players": {
+        "1": {
+          "playerId": 1234,
+          "channelId": 1334,
+          "name": "player1",
+          "role": 2,
+          "team": "Sói",
+          "status": 2
+        },
+        "2": {
+          "playerId": 1235,
+          "channelId": 1335,
+          "name": "player2",
+          "role": 1,
+          "team": "Dân",
+          "status": 2
+        },
+        "3": {
+          "playerId": 1236,
+          "channelId": 1336,
+          "name": "player3",
+          "role": 1,
+          "team": "Sói",
+          "status": 2
+        },
+        "4": {
+          "playerId": 1237,
+          "channelId": 1337,
+          "name": "player4",
+          "role": 3,
+          "team": "Solo",
+          "status": 1
+        },
+        "5": {
+          "playerId": 1238,
+          "channelId": 1338,
+          "name": "player5",
+          "role": 1,
+          "team": "Dân",
+          "status": 2
+        }
+      },
+      "status": 3,
+      "time": 1725888456751,
+      "winner": "Solo"
+    }
+  }
+}
